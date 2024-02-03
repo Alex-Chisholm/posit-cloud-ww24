@@ -12,10 +12,6 @@ format:
     height: "900"
   revealjs:
     footer: <https://github.com/emilhvitfeldt/quarto-roughnotation>
-filters:
-   - roughnotation
-revealjs-plugins:
-  - ArthurData/confetti
 ---
 
 
