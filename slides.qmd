@@ -10,21 +10,63 @@ format:
   positslides-revealjs: 
     width: "1600"
     height: "900"
-  revealjs:
-    footer: <https://github.com/emilhvitfeldt/quarto-roughnotation>
+    css: style.css
 ---
 
 
-## Test
+## diagrams!
 
-{{< video media/login.mp4 background-opacity="0" >}}
+<!-- changed echo = fenced, to false to hide code--> 
+```{mermaid}
+%%| echo: false 
+%%| label: fig-mermaid
+%%| fig-width: 6
+%%| fig-cap: |
+%%|   How Quarto orchestrates rendering of documents: start with 
+%%|   a qmd file, use the Knitr or Jupyter engine to perform the 
+%%|   computations and convert it to an md file, then use Pandoc 
+%%|   to convert to various file formats including HTML, PDF, 
+%%|   and Word.
+flowchart LR
+  A[qmd] --> B(Knitr)
+  A[qmd] --> C(Jupyter)
+  B(Knitr) --> D[md]
+  C(Jupyter) --> D[md]
+  D[md] --> E(pandoc)
+  E(pandoc) --> F(HTML)
+  E(pandoc) --> G(PDF)
+  E(pandoc) --> H(Word)
+  E(pandoc) --> I{and more}
+```
 
-## {background-video="media/login.mp4"}
+
+## A space for everything and everyone 
+https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/
+<!-- dot uses graphviz, not mermaid --> 
+```{dot}
+
+
+graph G {
+  layout=neato
+  space -- projects;
+  space -- "data\nconnections";
+  space -- "published\noutputs";
+  space -- "member\nmanagement";
+  projects -- "RStudio";
+  projects -- "Jupyter"
+  "published\noutputs" -- "Shiny";
+  "published\noutputs" -- "Quarto";
+  "published\noutputs" -- "Python Apps";
+  "published\noutputs" -- "R Markdown";
+  "data\nconnections" -- "PostgreSQL";
+   "data\nconnections" -- "MySQL";
+    "data\nconnections" -- "SQLServer";
+    "data\nconnections" -- "Other\nPosit\nDrivers";
+}
+```
+
 
 ## About Posit Cloud {.full-brackets-light}
-
-I would like to fade in an arrow to this [word]{.rn rn-type=circle rn-color=red}
-
 
 Posit Cloud is, in essence:
 
@@ -46,6 +88,35 @@ Cloud offers paid plans with more power and access to more resources, but we've 
 
 For the rest of my time I'm going to largely talk about the instructional use case, as it makes up 90% of our current user base today, but a lot of these features are helpful for anyone doing or sharing data science.
 :::
+
+
+## Clever Quotes<
+					<p>
+						These guys come in two forms, inline: <q cite="≈">The nice thing about standards is that there are so many to choose from</q> and block:
+					</p>
+					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
+						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
+					</blockquote>
+
+
+
+## A Space for Everything
+
+![Spaces](media/spaces.png)
+
+
+
+
+## Creating a space for a course
+
+## Logging In
+
+{{< video media/login.mp4 background-opacity="0" >}}
+
+## {background-video="media/login.mp4"}
+
+
 
 ## Where is Cloud used? {.full-brackets-light}
 
@@ -210,8 +281,6 @@ TODO: find a way to build a coherent story out of this.
 ::: {.has-dark-background style="text-align: center; font-size: 200%"}
 Thank you!
 :::
-
-
 
 ::: {.fragment .has-dark-background style="text-align: center; font-size: 75%"}
 ...and if you think _this_ Cloud publishing is cool, just wait. :)
