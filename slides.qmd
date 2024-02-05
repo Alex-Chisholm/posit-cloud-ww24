@@ -14,6 +14,44 @@ format:
 ---
 
 
+## What is Posit Cloud?
+
+## Posit Cloud Users
+
+## Success in education
+
+## A Space for everything
+
+## Preparing to teach STAT250
+
+Crate a new space
+Add a description
+
+## Adding course material 
+Projects | Outputs | Data Connections 
+
+
+## Getting ready for students
+
+Sharing (visibility)
+Assingments / Templates
+Lists
+
+## Adding students in students
+
+By email
+Generic link
+Too much UI? Rscloud
+
+## Doing it all again
+
+Copy space
+Delete members {RS CLOUD}
+
+## From individual instructor to institution
+
+
+
 ## diagrams!
 
 <!-- changed echo = fenced, to false to hide code--> 
