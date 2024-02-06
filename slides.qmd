@@ -13,156 +13,57 @@ format:
     css: style.css
 ---
 
-
-## What is Posit Cloud?
-
-## Posit Cloud Users
-
-## Success in education
-
-## A Space for everything
-
-## Preparing to teach STAT250
-
-Crate a new space
-Add a description
-
-## Adding course material 
-Projects | Outputs | Data Connections 
+## What is Posit Cloud {.full-brackets-light}
 
 
-## Getting ready for students
+::: columns
+::: {.column width="50%"}
+![](media/landing_page.png)
+:::
 
-Sharing (visibility)
-Assingments / Templates
-Lists
-
-## Adding students in students
-
-By email
-Generic link
-Too much UI? Rscloud
-
-## Doing it all again
-
-Copy space
-Delete members {RS CLOUD}
-
-## From individual instructor to institution
+::: {.column width="50%"}
+::: incremental
+* Modern web browser + an internet connection = all you need
+* Do and share data science  
+* Open to all: 1m+ users
+:::
+:::
+:::
 
 
+## Who uses Posit Cloud?  {.full-brackets-light}
 
-## diagrams!
 
-<!-- changed echo = fenced, to false to hide code--> 
+::: columns
+::: {.column width="50%"}
 ```{mermaid}
 %%| echo: false 
-%%| label: fig-mermaid
-%%| fig-width: 6
-%%| fig-cap: |
-%%|   How Quarto orchestrates rendering of documents: start with 
-%%|   a qmd file, use the Knitr or Jupyter engine to perform the 
-%%|   computations and convert it to an md file, then use Pandoc 
-%%|   to convert to various file formats including HTML, PDF, 
-%%|   and Word.
 flowchart LR
-  A[qmd] --> B(Knitr)
-  A[qmd] --> C(Jupyter)
-  B(Knitr) --> D[md]
-  C(Jupyter) --> D[md]
-  D[md] --> E(pandoc)
-  E(pandoc) --> F(HTML)
-  E(pandoc) --> G(PDF)
-  E(pandoc) --> H(Word)
-  E(pandoc) --> I{and more}
+  A(Teaching &\nLearning) --> B(Higher\nEducation)
+  A(Teaching &\nLearning) --> C(K-12)
+  A(Teaching &\nLearning) --> E(Meet-Ups)
+  A(Teaching &\nLearning) --> E(Workshops)
+  A(Teaching &\nLearning) --> D(Corporate\nTraining)
+ 
+```
+
+:::
+
+::: {.column width="50%"}
+
+
+```{mermaid}
+%%| echo: false 
+flowchart LR
+  A(Data Science) --> B(Consulting\nGroups)
+  A(Data Science)  --> C(SMBs)
+ 
 ```
 
 
-## A space for everything and everyone 
-https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/21-diagrams/
-<!-- dot uses graphviz, not mermaid --> 
-```{dot}
-
-
-graph G {
-  layout=neato
-  space -- projects;
-  space -- "data\nconnections";
-  space -- "published\noutputs";
-  space -- "member\nmanagement";
-  projects -- "RStudio";
-  projects -- "Jupyter"
-  "published\noutputs" -- "Shiny";
-  "published\noutputs" -- "Quarto";
-  "published\noutputs" -- "Python Apps";
-  "published\noutputs" -- "R Markdown";
-  "data\nconnections" -- "PostgreSQL";
-   "data\nconnections" -- "MySQL";
-    "data\nconnections" -- "SQLServer";
-    "data\nconnections" -- "Other\nPosit\nDrivers";
-}
-```
-
-
-## About Posit Cloud {.full-brackets-light}
-
-Posit Cloud is, in essence:
-
-* a web-based application,  
-* to learn, share, teach, and do data science,  
-* for everyone.
-
-Cloud requires a modern web browser, and an internet connection. That's it. 
-
-::: aside
-For access to more resources or computing power, Cloud requires a modern web browser, an internet connection, and a credit card.
+:::
 :::
 
-::: {.notes}
-Our original goal with Cloud when we announced it back in 2018 was "to make it easy for **everyone** to 
-do, share, teach, and learn data science using R". Since then, we've expanded our user base (each week we add around 10k new users, depending on the time of year), and broadened our horizons (not just R anymore), but our main driving principles are the same. 
-
-Cloud offers paid plans with more power and access to more resources, but we've always had a free plan for casual use so that anyone can get started with data science, wherever they are. Cloud requires a modern web browser, and an internet connection, and that's it. 
-
-For the rest of my time I'm going to largely talk about the instructional use case, as it makes up 90% of our current user base today, but a lot of these features are helpful for anyone doing or sharing data science.
-:::
-
-
-## Clever Quotes<
-					<p>
-						These guys come in two forms, inline: <q cite="≈">The nice thing about standards is that there are so many to choose from</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-
-
-
-## A Space for Everything
-
-![Spaces](media/spaces.png)
-
-
-
-
-## Creating a space for a course
-
-## Logging In
-
-{{< video media/login.mp4 background-opacity="0" >}}
-
-## {background-video="media/login.mp4"}
-
-
-
-## Where is Cloud used? {.full-brackets-light}
-
-* In colleges and universities
-* In small (or not so small) workshops
-* In corporate settings
-* Meetups
-* High schools
 
 ::: {.notes}
 Cloud is used in lots of different settings, but here a few:
@@ -173,39 +74,128 @@ Cloud is used in lots of different settings, but here a few:
 * UCLA supporting high school datascience education in the area, in hundreds of high schools (we heard from Suyen back in Palm Springs about how invaluable Cloud is for this use case).
 :::
 
-## People :heart: Cloud ... {.full-brackets-light}
+
+
+## People ❤️ Posit Cloud ... {.full-brackets-light}
+
+::: incremental
 * Cloud currently has over 5,000 paying customers.
-* Cloud generated 1.9M in revenue in 2023 , up about 50% from the previous year.
-
-TODO: graph here for breakdown of how folks would feel if Cloud went away
-
-::: {.notes}
-* We have over 5,000 paying customers, the majority of which are self-server. There is a pretty wide band for how much they each spend monthly, but it still goes to show that lots of people value this tool enough to open their wallets. And, Cloud use is growing.
-
-Aside from the financials, how do we know? Last February we asked a random sample of Posit Cloud users, and we broke them down by teachers, doers, and students:
-How would you feel if you could not longer use Posit Cloud?
-Very disappointed: 67%
-Somewhat disappointed: 28%
-Not disappointed at all: 5%
-[Note: those teaching or doing data science are well above 70% for very disappointed - students bring it down]
-* 50% of users don't know of any other product that can do what Posit Cloud does for them. Of those that do know other products, 66% think Posit Cloud is better,
-
-TODO: steal shamelessly from https://posit.cloud/education
+* Cloud generated 1.9M in revenue in 2023, up about 50% from the previous year.
+* 7 in 10 (67%) would be Very Disapointed if they could no longer use Posit Cloud.
+* 50% don't know another product that can solve their problems like Posit Cloud. Of those with comparisons, 66% think Posit Cloud is better.
 :::
 
-## ...because Cloud is easy {.full-brackets-light}
+::: {.callout-tip}
+## Kamil Kaźmierski | Adam Mickiewicz University in Poznań, Associate Professor
+It is the workhorse of several courses I teach. It <span style="color:green;">strips away the hassle of installing software and sharing data sets and assignments</span>, and has the added benefit of enabling me to peek into my student's projects if they need help.
+:::
 
-* Nothing to install, maintain, or set up
-
-TODO: more here
-
-TODO: steal shameless from https://posit.cloud/education
+## Mel's Thought Experiment
 
 ::: {.notes}
 One of the coolest things about Cloud is that it allows users, even the newest of new users, to simply ... go. This is especially important for anyone who is just starting out, as well as for anyone teaching them! The friction-free approach makes Cloud very, very well suited for instruction.
 
 Back in the dark ages, either students did their R programming work in the Stats lab, or spent a lot of time getting everything set up and installed correctly on our own machines, which also meant spending a lot of time in the Stats lab. With Cloud, there aren't myriad different systems to support and keep up to date — we take care of that — and our features allow instructors to set their learners up for success by getting their hands dirty right away. No installation-hazing required.
 :::
+
+
+## A Space for everything
+
+![Spaces](media/spaces.png)
+
+## Preparing to teach STAT250
+
+* Crate a new space
+* Add a description
+
+## Adding course material 
+
+* Projects
+* Outputs
+* Data Connections 
+
+
+## Getting ready for students
+
+* Sharing (visibility)
+* Assingments / Templates
+* Lists
+
+## Adding students in students
+
+* By email
+* Generic link
+* Too much UI? Rscloud
+
+## What Students See
+
+* Accepting invitation
+* Starting an assignment
+* Seeing the content list.... [it is now theirs]
+
+## Supporting Organizations - Without Sales Intervention
+<!-- dot uses graphviz, not mermaid --> 
+```{dot}
+graph G {
+  layout=neato
+  Institution -- "Instructor A";
+  Institution --  "Instructor B";
+  Institution --  "Instructor C";
+  "Instructor A" -- "STAT 250";
+  "Instructor A" -- "STAT 350";
+  "Instructor B" -- "ECON 201";
+  "Instructor B" -- "ECON 202";
+  "Instructor C" -- "BIO 103";
+  "Instructor C" -- "BIO 104"
+}
+
+```
+
+
+##
+
+## {.center background-image="_extensions/positslides/assets/backgrounds/title-slide-option-2.png" background-size="contain"}
+
+::: {.has-dark-background style="text-align: center; font-size: 200%"}
+Thank you!
+:::
+
+::: {.fragment .has-dark-background style="text-align: center; font-size: 75%"}
+Built in Posit Cloud | Published to Connect Cloud
+:::
+
+## 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Creating a space for a course
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## {background-image="_extensions/positslides/assets/backgrounds/full-brackets-dark.png" background-size="contain" .center}
 
@@ -261,6 +251,11 @@ TODO: Steal https://docs.google.com/presentation/d/10cpVg8ix4W_J7aU8tKLwQ7MFjP0d
 Let's talk more about named spaces.
 :::
 
+
+
+
+
+
 ## Named spaces are great for teaching {.full-brackets-light}
 
 Named spaces can have:
@@ -314,12 +309,3 @@ TODO: make a join space link that sets everyone as a viewer and opens the slides
 TODO: find a way to build a coherent story out of this.
 :::
 
-## {.center background-image="_extensions/positslides/assets/backgrounds/title-slide-option-2.png" background-size="contain"}
-
-::: {.has-dark-background style="text-align: center; font-size: 200%"}
-Thank you!
-:::
-
-::: {.fragment .has-dark-background style="text-align: center; font-size: 75%"}
-...and if you think _this_ Cloud publishing is cool, just wait. :)
-:::
