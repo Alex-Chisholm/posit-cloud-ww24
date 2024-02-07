@@ -7,7 +7,9 @@
 <link href="slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="slides_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="slides_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="slides_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="slides_files/libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="slides_files/libs/quarto-contrib/videojs/video-js.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.549">
 
   <meta name="author" content="Alex &amp; Mel">
@@ -331,7 +333,7 @@
 
 <section id="title-slide" data-background-color="white" data-background-image="_extensions/positslides/assets/backgrounds/sample-title-slide-option-1.png" data-background-size="contain" class="quarto-title-block center">
   <h1 class="title">Posit Cloud</h1>
-  <p class="subtitle">Painless RStudio in the Browser</p>
+  <p class="subtitle">Top User Flows &amp; Supporting Features</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -342,7 +344,7 @@ Alex &amp; Mel
 </div>
 
 </section>
-<section id="what-is-posit-cloud" class="slide level2 full-brackets-light">
+<section id="what-is-posit-cloud" class="slide level2 full-brackets-light asd">
 <h2>What is Posit Cloud</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -359,10 +361,31 @@ Alex &amp; Mel
 </div>
 </div>
 </section>
-<section id="who-uses-posit-cloud" class="slide level2 full-brackets-light">
-<h2>Who uses Posit Cloud?</h2>
+<section id="people-posit-cloud" class="slide level2 full-brackets-light">
+<h2>People ❤️ Posit Cloud …</h2>
+<div>
+<ul>
+<li class="fragment">Cloud currently has over 5,000 paying customers.</li>
+<li class="fragment">Cloud generated 1.9M in revenue in 2023, up about 50% from the previous year.</li>
+<li class="fragment">7 in 10 (67%) would be Very Disappointed if they could no longer use Posit Cloud.</li>
+</ul>
+</div>
 <div class="columns">
 <div class="column" style="width:50%;">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Kamil Kaźmierski | Adam Mickiewicz University in Poznań, Associate Professor</strong></p>
+</div>
+<div class="callout-content">
+<p>It is the workhorse of several courses I teach. It <span style="color:green;">strips away the hassle of installing software and sharing data sets and assignments</span>, and has the added benefit of enabling me to peek into my student’s projects if they need help.</p>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -380,59 +403,6 @@ Alex &amp; Mel
 <p></p></figure><p></p>
 </div>
 </div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A(Data Science) --&gt; B(Consulting\nGroups)
-  A(Data Science)  --&gt; C(SMBs)
- 
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<aside class="notes">
-<p>Cloud is used in lots of different settings, but here a few: * as part of the academic coursework, both remote and in person * as part of conferences, such as posit::conf! * these are trainings in corporate settings, like Pfizer * R Ladies! * UCLA supporting high school datascience education in the area, in hundreds of high schools (we heard from Suyen back in Palm Springs about how invaluable Cloud is for this use case).</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="people-posit-cloud" class="slide level2 full-brackets-light">
-<h2>People ❤️ Posit Cloud …</h2>
-<div>
-<ul>
-<li class="fragment">Cloud currently has over 5,000 paying customers.</li>
-<li class="fragment">Cloud generated 1.9M in revenue in 2023, up about 50% from the previous year.</li>
-<li class="fragment">7 in 10 (67%) would be Very Disapointed if they could no longer use Posit Cloud.</li>
-<li class="fragment">50% don’t know another product that can solve their problems like Posit Cloud. Of those with comparisons, 66% think Posit Cloud is better.</li>
-</ul>
-</div>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Kamil Kaźmierski | Adam Mickiewicz University in Poznań, Associate Professor</strong></p>
-</div>
-<div class="callout-content">
-<p>It is the workhorse of several courses I teach. It <span style="color:green;">strips away the hassle of installing software and sharing data sets and assignments</span>, and has the added benefit of enabling me to peek into my student’s projects if they need help.</p>
 </div>
 </div>
 </div>
@@ -457,162 +427,172 @@ Alex &amp; Mel
 <section id="a-space-for-everything" class="slide level2">
 <h2>A Space for everything</h2>
 
-<img data-src="media/spaces.png" class="r-stretch quarto-figure-center"><p class="caption">Spaces</p></section>
-<section id="preparing-to-teach-stat250" class="slide level2">
-<h2>Preparing to teach STAT250</h2>
-<ul>
-<li>Crate a new space</li>
-<li>Add a description</li>
-</ul>
+<img data-src="media/spaces.png" class="r-stretch"></section>
+<section id="preparing-for-the-semester" class="slide level2">
+<h2>Preparing for the semester</h2>
+<p>Create a new space | Add a description</p>
+<video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="media/new_space.mp4"></video>
 </section>
 <section id="adding-course-material" class="slide level2">
 <h2>Adding course material</h2>
-<ul>
-<li>Projects</li>
-<li>Outputs</li>
-<li>Data Connections</li>
-</ul>
+<p><strong>Projects</strong> | Outputs | Data Connections</p>
+<video id="video_shortcode_videojs_video2" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="media/project.mp4"></video>
+</section>
+<section id="adding-course-material-1" class="slide level2">
+<h2>Adding course material</h2>
+<p>Projects | <strong>Outputs</strong> | Data Connections</p>
+<video id="video_shortcode_videojs_video3" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="media/output.mp4"></video>
+</section>
+<section id="adding-course-material-2" class="slide level2">
+<h2>Adding course material</h2>
+<p>Projects | Outputs | <strong>Data Connections</strong></p>
+<video id="video_shortcode_videojs_video4" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="media/data.mp4"></video>
 </section>
 <section id="getting-ready-for-students" class="slide level2">
 <h2>Getting ready for students</h2>
-<ul>
-<li>Sharing (visibility)</li>
-<li>Assingments / Templates</li>
-<li>Lists</li>
-</ul>
+<p>Access Controls | Assingments | Lists</p>
+<video id="video_shortcode_videojs_video5" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="media/manage.mp4"></video>
 </section>
 <section id="adding-students-in-students" class="slide level2">
 <h2>Adding students in students</h2>
-<ul>
-<li>By email</li>
-<li>Generic link</li>
-<li>Too much UI? Rscloud</li>
-</ul>
+<p>Email Invite | Generic Link | library(rscloud)</p>
+<video id="video_shortcode_videojs_video6" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="media/invite.mp4"></video>
 </section>
 <section id="what-students-see" class="slide level2">
 <h2>What Students See</h2>
-<ul>
-<li>Accepting invitation</li>
-<li>Starting an assignment</li>
-<li>Seeing the content list…. [it is now theirs]</li>
-</ul>
+<p>Accept Invite | Start Assignment | See Their Content</p>
+<video id="video_shortcode_videojs_video7" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="media/joining.mp4"></video>
 </section>
-<section id="supporting-organizations---without-sales-intervention" class="slide level2">
-<h2>Supporting Organizations - Without Sales Intervention</h2>
+<section id="teacher-visibility" class="slide level2">
+<h2>Teacher Visibility</h2>
+<p>Member Management | Usage Analytics</p>
+<video id="video_shortcode_videojs_video8" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="media/visibility.mp4"></video>
+</section>
+<section id="supporting-organizations" class="slide level2">
+<h2>Supporting Organizations</h2>
 <!-- dot uses graphviz, not mermaid -->
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<svg width="960" height="480" viewbox="0.00 0.00 402.20 332.10" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 328.1)">
+<svg width="960" height="480" viewbox="0.00 0.00 369.98 354.94" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 350.94)">
 <title>G</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-328.1 398.2,-328.1 398.2,4 -4,4"></polygon>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-350.94 365.98,-350.94 365.98,4 -4,4"></polygon>
 <!-- Institution -->
 <g id="node1" class="node">
 <title>Institution</title>
-<ellipse fill="none" stroke="black" cx="198.92" cy="-170.31" rx="50.98" ry="18"></ellipse>
-<text text-anchor="middle" x="198.92" y="-166.11" font-family="Times,serif" font-size="14.00">Institution</text>
+<ellipse fill="none" stroke="black" cx="182.71" cy="-181.73" rx="50.98" ry="18"></ellipse>
+<text text-anchor="middle" x="182.71" y="-177.53" font-family="Times,serif" font-size="14.00">Institution</text>
 </g>
-<!-- Instructor A -->
+<!-- Instructor\nA -->
 <g id="node2" class="node">
-<title>Instructor A</title>
-<ellipse fill="none" stroke="black" cx="262.2" cy="-226.54" rx="57.94" ry="18"></ellipse>
-<text text-anchor="middle" x="262.2" y="-222.34" font-family="Times,serif" font-size="14.00">Instructor A</text>
+<title>Instructor\nA</title>
+<ellipse fill="none" stroke="black" cx="245.99" cy="-237.96" rx="49.6" ry="29.33"></ellipse>
+<text text-anchor="middle" x="245.99" y="-242.16" font-family="Times,serif" font-size="14.00">Instructor</text>
+<text text-anchor="middle" x="245.99" y="-225.36" font-family="Times,serif" font-size="14.00">A</text>
 </g>
-<!-- Institution&#45;&#45;Instructor A -->
+<!-- Institution&#45;&#45;Instructor\nA -->
 <g id="edge1" class="edge">
-<title>Institution--Instructor A</title>
-<path fill="none" stroke="black" d="M217.9,-187.18C225.77,-194.17 234.88,-202.27 242.79,-209.29"></path>
+<title>Institution--Instructor\nA</title>
+<path fill="none" stroke="black" d="M201.7,-198.6C206.94,-203.26 212.74,-208.41 218.36,-213.41"></path>
 </g>
-<!-- Instructor B -->
+<!-- Instructor\nB -->
 <g id="node3" class="node">
-<title>Instructor B</title>
-<ellipse fill="none" stroke="black" cx="215.97" cy="-87.42" rx="57.37" ry="18"></ellipse>
-<text text-anchor="middle" x="215.97" y="-83.22" font-family="Times,serif" font-size="14.00">Instructor B</text>
+<title>Instructor\nB</title>
+<ellipse fill="none" stroke="black" cx="199.76" cy="-98.84" rx="49.6" ry="29.33"></ellipse>
+<text text-anchor="middle" x="199.76" y="-103.04" font-family="Times,serif" font-size="14.00">Instructor</text>
+<text text-anchor="middle" x="199.76" y="-86.24" font-family="Times,serif" font-size="14.00">B</text>
 </g>
-<!-- Institution&#45;&#45;Instructor B -->
+<!-- Institution&#45;&#45;Instructor\nB -->
 <g id="edge2" class="edge">
-<title>Institution--Instructor B</title>
-<path fill="none" stroke="black" d="M202.62,-152.33C205.46,-138.52 209.36,-119.53 212.21,-105.66"></path>
+<title>Institution--Instructor\nB</title>
+<path fill="none" stroke="black" d="M186.41,-163.74C188.55,-153.36 191.28,-140.05 193.72,-128.2"></path>
 </g>
-<!-- Instructor C -->
+<!-- Instructor\nC -->
 <g id="node4" class="node">
-<title>Instructor C</title>
-<ellipse fill="none" stroke="black" cx="118.6" cy="-197.03" rx="57.37" ry="18"></ellipse>
-<text text-anchor="middle" x="118.6" y="-192.83" font-family="Times,serif" font-size="14.00">Instructor C</text>
+<title>Instructor\nC</title>
+<ellipse fill="none" stroke="black" cx="102.4" cy="-208.44" rx="49.6" ry="29.33"></ellipse>
+<text text-anchor="middle" x="102.4" y="-212.64" font-family="Times,serif" font-size="14.00">Instructor</text>
+<text text-anchor="middle" x="102.4" y="-195.84" font-family="Times,serif" font-size="14.00">C</text>
 </g>
-<!-- Institution&#45;&#45;Instructor C -->
+<!-- Institution&#45;&#45;Instructor\nC -->
 <g id="edge3" class="edge">
-<title>Institution--Instructor C</title>
-<path fill="none" stroke="black" d="M161.58,-182.73C160.43,-183.11 159.28,-183.49 158.13,-183.88"></path>
+<title>Institution--Instructor\nC</title>
+<path fill="none" stroke="black" d="M145.38,-194.15C145.21,-194.2 145.05,-194.25 144.88,-194.31"></path>
 </g>
-<!-- STAT 250 -->
+<!-- STAT\n250 -->
 <g id="node5" class="node">
-<title>STAT 250</title>
-<ellipse fill="none" stroke="black" cx="342.12" cy="-227.91" rx="52.16" ry="18"></ellipse>
-<text text-anchor="middle" x="342.12" y="-223.71" font-family="Times,serif" font-size="14.00">STAT 250</text>
+<title>STAT\n250</title>
+<ellipse fill="none" stroke="black" cx="325.92" cy="-239.33" rx="36.12" ry="29.33"></ellipse>
+<text text-anchor="middle" x="325.92" y="-243.53" font-family="Times,serif" font-size="14.00">STAT</text>
+<text text-anchor="middle" x="325.92" y="-226.73" font-family="Times,serif" font-size="14.00">250</text>
 </g>
-<!-- Instructor A&#45;&#45;STAT 250 -->
+<!-- Instructor\nA&#45;&#45;STAT\n250 -->
 <g id="edge4" class="edge">
-<title>Instructor A--STAT 250</title>
-<path fill="none" stroke="black" d="M320.28,-227.54C320.38,-227.54 320.48,-227.54 320.57,-227.54"></path>
+<title>Instructor\nA--STAT\n250</title>
+<path fill="none" stroke="black" d="M296.16,-238.82C296.28,-238.82 296.41,-238.82 296.53,-238.82"></path>
 </g>
-<!-- STAT 350 -->
+<!-- STAT\n350 -->
 <g id="node6" class="node">
-<title>STAT 350</title>
-<ellipse fill="none" stroke="black" cx="271.27" cy="-306.1" rx="52.16" ry="18"></ellipse>
-<text text-anchor="middle" x="271.27" y="-301.9" font-family="Times,serif" font-size="14.00">STAT 350</text>
+<title>STAT\n350</title>
+<ellipse fill="none" stroke="black" cx="255.06" cy="-317.52" rx="36.12" ry="29.33"></ellipse>
+<text text-anchor="middle" x="255.06" y="-321.72" font-family="Times,serif" font-size="14.00">STAT</text>
+<text text-anchor="middle" x="255.06" y="-304.92" font-family="Times,serif" font-size="14.00">350</text>
 </g>
-<!-- Instructor A&#45;&#45;STAT 350 -->
+<!-- Instructor\nA&#45;&#45;STAT\n350 -->
 <g id="edge5" class="edge">
-<title>Instructor A--STAT 350</title>
-<path fill="none" stroke="black" d="M264.26,-244.6C265.73,-257.53 267.71,-274.87 269.19,-287.85"></path>
+<title>Instructor\nA--STAT\n350</title>
+<path fill="none" stroke="black" d="M249.37,-267.58C250.14,-274.3 250.95,-281.43 251.71,-288.13"></path>
 </g>
-<!-- ECON 201 -->
+<!-- ECON\n201 -->
 <g id="node7" class="node">
-<title>ECON 201</title>
-<ellipse fill="none" stroke="black" cx="176.21" cy="-18" rx="54.45" ry="18"></ellipse>
-<text text-anchor="middle" x="176.21" y="-13.8" font-family="Times,serif" font-size="14.00">ECON 201</text>
+<title>ECON\n201</title>
+<ellipse fill="none" stroke="black" cx="160" cy="-29.42" rx="38.03" ry="29.33"></ellipse>
+<text text-anchor="middle" x="160" y="-33.62" font-family="Times,serif" font-size="14.00">ECON</text>
+<text text-anchor="middle" x="160" y="-16.82" font-family="Times,serif" font-size="14.00">201</text>
 </g>
-<!-- Instructor B&#45;&#45;ECON 201 -->
+<!-- Instructor\nB&#45;&#45;ECON\n201 -->
 <g id="edge6" class="edge">
-<title>Instructor B--ECON 201</title>
-<path fill="none" stroke="black" d="M205.73,-69.55C199.84,-59.26 192.46,-46.37 186.55,-36.06"></path>
+<title>Instructor\nB--ECON\n201</title>
+<path fill="none" stroke="black" d="M183.59,-70.6C180.92,-65.95 178.17,-61.13 175.52,-56.51"></path>
 </g>
-<!-- ECON 202 -->
+<!-- ECON\n202 -->
 <g id="node8" class="node">
-<title>ECON 202</title>
-<ellipse fill="none" stroke="black" cx="279.82" cy="-39.24" rx="54.45" ry="18"></ellipse>
-<text text-anchor="middle" x="279.82" y="-35.04" font-family="Times,serif" font-size="14.00">ECON 202</text>
+<title>ECON\n202</title>
+<ellipse fill="none" stroke="black" cx="263.61" cy="-50.65" rx="38.03" ry="29.33"></ellipse>
+<text text-anchor="middle" x="263.61" y="-54.85" font-family="Times,serif" font-size="14.00">ECON</text>
+<text text-anchor="middle" x="263.61" y="-38.05" font-family="Times,serif" font-size="14.00">202</text>
 </g>
-<!-- Instructor B&#45;&#45;ECON 202 -->
+<!-- Instructor\nB&#45;&#45;ECON\n202 -->
 <g id="edge7" class="edge">
-<title>Instructor B--ECON 202</title>
-<path fill="none" stroke="black" d="M238.3,-70.57C244.63,-65.79 251.51,-60.6 257.82,-55.84"></path>
+<title>Instructor\nB--ECON\n202</title>
+<path fill="none" stroke="black" d="M230.56,-75.59C232.48,-74.15 234.4,-72.7 236.29,-71.27"></path>
 </g>
-<!-- BIO 103 -->
+<!-- BIO\n103 -->
 <g id="node9" class="node">
-<title>BIO 103</title>
-<ellipse fill="none" stroke="black" cx="44.57" cy="-166.92" rx="44.63" ry="18"></ellipse>
-<text text-anchor="middle" x="44.57" y="-162.72" font-family="Times,serif" font-size="14.00">BIO 103</text>
+<title>BIO\n103</title>
+<ellipse fill="none" stroke="black" cx="28.36" cy="-178.34" rx="28.23" ry="29.33"></ellipse>
+<text text-anchor="middle" x="28.36" y="-182.54" font-family="Times,serif" font-size="14.00">BIO</text>
+<text text-anchor="middle" x="28.36" y="-165.74" font-family="Times,serif" font-size="14.00">103</text>
 </g>
-<!-- Instructor C&#45;&#45;BIO 103 -->
+<!-- Instructor\nC&#45;&#45;BIO\n103 -->
 <g id="edge8" class="edge">
-<title>Instructor C--BIO 103</title>
-<path fill="none" stroke="black" d="M83.32,-182.68C80.93,-181.71 78.54,-180.74 76.18,-179.78"></path>
+<title>Instructor\nC--BIO\n103</title>
+<path fill="none" stroke="black" d="M61.05,-191.63C58.93,-190.77 56.83,-189.92 54.78,-189.08"></path>
 </g>
-<!-- BIO 104 -->
+<!-- BIO\n104 -->
 <g id="node10" class="node">
-<title>BIO 104</title>
-<ellipse fill="none" stroke="black" cx="79.02" cy="-266.66" rx="44.63" ry="18"></ellipse>
-<text text-anchor="middle" x="79.02" y="-262.46" font-family="Times,serif" font-size="14.00">BIO 104</text>
+<title>BIO\n104</title>
+<ellipse fill="none" stroke="black" cx="62.81" cy="-278.07" rx="28.23" ry="29.33"></ellipse>
+<text text-anchor="middle" x="62.81" y="-282.27" font-family="Times,serif" font-size="14.00">BIO</text>
+<text text-anchor="middle" x="62.81" y="-265.47" font-family="Times,serif" font-size="14.00">104</text>
 </g>
-<!-- Instructor C&#45;&#45;BIO 104 -->
+<!-- Instructor\nC&#45;&#45;BIO\n104 -->
 <g id="edge9" class="edge">
-<title>Instructor C--BIO 104</title>
-<path fill="none" stroke="black" d="M108.41,-214.96C102.45,-225.44 94.97,-238.6 89.04,-249.03"></path>
+<title>Instructor\nC--BIO\n104</title>
+<path fill="none" stroke="black" d="M86.52,-236.36C83.51,-241.66 80.38,-247.18 77.41,-252.4"></path>
 </g>
 </g>
 </svg>
@@ -622,10 +602,16 @@ Alex &amp; Mel
 </div>
 </div>
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
+<section id="other-use-cases" class="slide level2">
+<h2>Other Use Cases</h2>
+<ul>
+<li>Consulting Groups</li>
+<li>SMBs</li>
+<li>Internal BI</li>
+</ul>
+<p>What’s more important? SSO | Security | Big Data</p>
 </section>
-<section id="section-1" class="slide level2 center" data-background-image="_extensions/positslides/assets/backgrounds/title-slide-option-2.png" data-background-size="contain">
+<section id="section" class="slide level2 center" data-background-image="_extensions/positslides/assets/backgrounds/title-slide-option-2.png" data-background-size="contain">
 <h2></h2>
 <div class="has-dark-background" style="text-align: center; font-size: 200%">
 <p>Thank you!</p>
@@ -634,155 +620,8 @@ Alex &amp; Mel
 <p>Built in Posit Cloud | Published to Connect Cloud</p>
 </div>
 </section>
-<section id="section-2" class="slide level2">
+<section id="section-1" class="slide level2">
 <h2></h2>
-</section>
-<section id="creating-a-space-for-a-course" class="slide level2">
-<h2>Creating a space for a course</h2>
-</section>
-<section id="section-3" class="slide level2 center" data-background-image="_extensions/positslides/assets/backgrounds/full-brackets-dark.png" data-background-size="contain">
-<h2></h2>
-<div class="has-dark-background" style="text-align: center; font-size: 200%">
-<p>What makes Posit Cloud magic?</p>
-<p>TODO: better words</p>
-</div>
-<aside class="notes">
-<p>So, let’s talk about how it works.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="work-happens-in-projects" class="slide level2 full-brackets-light">
-<h2>Work happens in projects</h2>
-<ul>
-<li>projects are the fundamental units of work on Cloud.</li>
-<li>projects are what most people are working on most of the time in Cloud.</li>
-<li>projects are isolated from each other — each project is its own sandbox.</li>
-</ul>
-<p>TODO: insert a screenshot here of a new RStudio project</p>
-<aside class="notes">
-<p>First, projects!</p>
-<p>Projects are the fundamental units of work on Cloud. A project is where code, data and packages exist, and projects are isolated from each other. Projects are where users do their work.</p>
-<p>The most basic kind of project is simply a new RStudio project, but projects have lots of other aspects that are beneficial to learners and instructors alike.</p>
-<p>But as we accumulate projects, what do we do with them?</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="projects-exist-in-spaces" class="slide level2 full-brackets-light">
-<h2>Projects exist in spaces</h2>
-<ul>
-<li>spaces are where projects exist in Cloud.</li>
-<li>spaces:
-<ul>
-<li>keep content organized,</li>
-<li>facilitate teaching, collaboration and sharing, and</li>
-<li>set various access permissions for content in Cloud.</li>
-</ul></li>
-</ul>
-<p>TODO: insert a screenshot here of a named space</p>
-<aside class="notes">
-<p>This is where spaces come in!</p>
-<p>Spaces are where projects exist in Cloud. Spaces allow for organization, and facilitate teaching, collaboration, and sharing. Projects are where the work gets done, but spaces are the magic that ties Cloud together. By default everyone gets a personal workspace, creatively called Your Workspace, and this space is limited in that it only ever has a single member.</p>
-<p>Users can create additional, named spaces, and allow other users to join these spaces. All space membership grants specific permissions, allowing users access to different projects and features, depending on how the space is configured.</p>
-<p>TODO: Steal https://docs.google.com/presentation/d/1tyUwI1uFWjOHWbMiUzuicESxqi2iEtRtnqYi96ufLVc/edit#slide=id.g25a21409b39_0_16</p>
-<p>TODO: Steal https://docs.google.com/presentation/d/10cpVg8ix4W_J7aU8tKLwQ7MFjP0d3Vr0bpytXCDSiig/edit#slide=id.g253c839e444_0_204</p>
-<p>Let’s talk more about named spaces.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="named-spaces-are-great-for-teaching" class="slide level2 full-brackets-light">
-<h2>Named spaces are great for teaching</h2>
-<p>Named spaces can have:</p>
-<div>
-<ul>
-<li class="fragment">Clever custom templates!</li>
-<li class="fragment">Amazing assignments!</li>
-<li class="fragment">Convenient custom lists!</li>
-<li class="fragment">Daring data connections!</li>
-<li class="fragment">Magnificent member management!</li>
-<li class="fragment">Vital visibility permissions!</li>
-</ul>
-</div>
-<aside class="notes">
-<p>So, named spaces are the spaces that users can create for themselves. Named spaces have a number of cool features that make them truly excellent for instruction:</p>
-<ul>
-<li>Getting started doesn’t mean having to start from 0! While Cloud allows users to skip over installing R, RStudio, etc. on their machines, <strong>custom templates</strong> allow users to skip over the boilerplate of installing packages or even creating files. Instructors can set up templates so that learners can hit the ground running.</li>
-<li>Like templates, <strong>assignments</strong> allow users to skip over boilerplate too. In addition, an assignment also allows a user to <em>always</em> get back to wherever they were on whatever the current assignment is. This has been very helpful in a class setting where all students start from an existing project, no more getting lost or losing work or making extra copies.</li>
-<li><strong>Custom lists</strong> are a means of organizing content within a space. These lists are handy for grouping related content together, so that users can orient themselves more easily.</li>
-<li>Cloud exposes the <strong>professional drivers</strong> at the top level to make it very very easy to allow users to securely store credentials and pull data into their projects. Some instructors are starting to take advantage of these features — they make it easier to get this configured ahead of time, which is always a bonus, but we’re seeing a lot of traction on this feature from our business use case, and for them it is critical.</li>
-<li>Cloud spaces have TODO add more here about <strong>member management</strong>
-<ul>
-<li>In Cloud you can allow users to <strong>join a space</strong> via a link instead of an emailed invite. This actually sounds kind of boring unless you’re trying to get 600 college students added to a space on the first day of lecture. This feature has a secret extra bonus ability where users joining the space can automatically open a designated project — more on that in a sec.</li>
-<li>In Cloud you can manage space membership via the <strong><a href="https://github.com/rstudio/rscloud">rscloud</a> package</strong>, which means you can write R while you teach R where you are already are.</li>
-</ul></li>
-<li>And, while <strong>permissions</strong> aren’t exactly the flashiest of features, they are critical for instructors who want to curate what their students have access to … and prevent students from easily seeing each other’s work. Permissions are derived from the role a user has in a space, and, amongst other things, allow the instructor(s) to hide projects until they are ready to be worked on This means that an instructor can create all teaching content ahead of time for their course.</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="and-a-bunch-of-other-nifty-things" class="slide level2 full-brackets-dark">
-<h2>And a bunch of other nifty things!</h2>
-<p>In Cloud you can:</p>
-<div>
-<ul>
-<li class="fragment">Learn R with Recipes! Cool!</li>
-<li class="fragment">Get started with one of our global templates! Fantastic!</li>
-<li class="fragment">Further your learning or defer the routine to GitHub Copilot in RStudio projects! Incredible!</li>
-<li class="fragment">Collaborate in real time on a shared project! Remarkable!</li>
-<li class="fragment">Set up accounts for SSO! Splendid!</li>
-<li class="fragment">Publish from Cloud … to Cloud! Astonishing!</li>
-</ul>
-</div>
-<aside class="notes">
-<p>And finally, here’s a somewhat random collection of other awesome features I wanted to highlight today: * Cloud has an entire section dedicated to learning. Newly added, and most notably, Cloud has Recipes, which are a large set of instructional guides with code snippets, available to everyone with a Cloud account - thank you to the Academy team for these! * We have a growing number of <strong>global templates</strong> that everyone has access to when creating new projects. While users can create their own custom templates in their named spaces, these global templates are set up by us to allow users to hit the ground running with various common use cases, like creating Quarto or RMarkdown documents, Shiny applications, or doing data analysis and machine learning. * In Cloud you can use <strong>GitHub Copilot</strong> in your RStudio projects. You must have access to GitHub Copilot, and you must link your GitHub account in Cloud to do this, but it’s basically like living in the future. * In Cloud, you can <strong>work collaboratively</strong> with other users on a single project in a space! This is a beta feature, and everyone in the space must have a role of admin or moderator to use it, but still, it’s a neat thing to be able to do.] * <strong>SSO</strong> requires a different kind of account (an org account), which I haven’t really touched on here, but some of our big customers love this … or at least require it. * Finally, you can <strong>publish</strong> from Cloud … to Cloud! If the important part of the work is the output, Cloud can handle that too. Cloud supports a number of different output formats, including Quarto, R Markdown, Shiny, Streamlit, and others. Posit Cloud is where I built these slides, and is where these slides are hosted! Follow this link to join my space and check them out yourself:</p>
-<p>TODO: make a join space link that sets everyone as a viewer and opens the slides by default.</p>
-<p>TODO: find a way to build a coherent story out of this.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
@@ -1153,6 +992,14 @@ Alex &amp; Mel
       }
     });
     </script>
+    <script>videojs(video_shortcode_videojs_video1);</script>
+    <script>videojs(video_shortcode_videojs_video2);</script>
+    <script>videojs(video_shortcode_videojs_video3);</script>
+    <script>videojs(video_shortcode_videojs_video4);</script>
+    <script>videojs(video_shortcode_videojs_video5);</script>
+    <script>videojs(video_shortcode_videojs_video6);</script>
+    <script>videojs(video_shortcode_videojs_video7);</script>
+    <script>videojs(video_shortcode_videojs_video8);</script>
     
 
 </body></html>

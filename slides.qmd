@@ -1,6 +1,6 @@
 ---
 title: "Posit Cloud"
-subtitle: "Painless RStudio in the Browser"
+subtitle: "Top User Flows & Supporting Features"
 author: "Alex & Mel"
 title-slide-attributes: 
   data-background-color: white
@@ -13,11 +13,11 @@ format:
     css: style.css
 ---
 
-## What is Posit Cloud {.full-brackets-light}
+## What is Posit Cloud {.full-brackets-light .asd} 
 
 
-::: columns
-::: {.column width="50%"}
+::: columns 
+::: {.column width="50%"} 
 ![](media/landing_page.png)
 :::
 
@@ -31,11 +31,30 @@ format:
 :::
 
 
-## Who uses Posit Cloud?  {.full-brackets-light}
+
+## People ❤️ Posit Cloud ... {.full-brackets-light}
+
+
+
+::: incremental
+* Cloud currently has over 5,000 paying customers.
+* Cloud generated 1.9M in revenue in 2023, up about 50% from the previous year.
+* 7 in 10 (67%) would be Very Disappointed if they could no longer use Posit Cloud.
+:::
 
 
 ::: columns
 ::: {.column width="50%"}
+
+::: {.callout-tip}
+## Kamil Kaźmierski | Adam Mickiewicz University in Poznań, Associate Professor
+It is the workhorse of several courses I teach. It <span style="color:green;">strips away the hassle of installing software and sharing data sets and assignments</span>, and has the added benefit of enabling me to peek into my student's projects if they need help.
+:::
+
+:::
+
+:::  {.column width="50%"}
+
 ```{mermaid}
 %%| echo: false 
 flowchart LR
@@ -49,45 +68,6 @@ flowchart LR
 
 :::
 
-::: {.column width="50%"}
-
-
-```{mermaid}
-%%| echo: false 
-flowchart LR
-  A(Data Science) --> B(Consulting\nGroups)
-  A(Data Science)  --> C(SMBs)
- 
-```
-
-
-:::
-:::
-
-
-::: {.notes}
-Cloud is used in lots of different settings, but here a few:
-* as part of the academic coursework, both remote and in person
-* as part of conferences, such as posit::conf!
-* these are trainings in corporate settings, like Pfizer
-* R Ladies!
-* UCLA supporting high school datascience education in the area, in hundreds of high schools (we heard from Suyen back in Palm Springs about how invaluable Cloud is for this use case).
-:::
-
-
-
-## People ❤️ Posit Cloud ... {.full-brackets-light}
-
-::: incremental
-* Cloud currently has over 5,000 paying customers.
-* Cloud generated 1.9M in revenue in 2023, up about 50% from the previous year.
-* 7 in 10 (67%) would be Very Disapointed if they could no longer use Posit Cloud.
-* 50% don't know another product that can solve their problems like Posit Cloud. Of those with comparisons, 66% think Posit Cloud is better.
-:::
-
-::: {.callout-tip}
-## Kamil Kaźmierski | Adam Mickiewicz University in Poznań, Associate Professor
-It is the workhorse of several courses I teach. It <span style="color:green;">strips away the hassle of installing software and sharing data sets and assignments</span>, and has the added benefit of enabling me to peek into my student's projects if they need help.
 :::
 
 ## Mel's Thought Experiment
@@ -101,58 +81,78 @@ Back in the dark ages, either students did their R programming work in the Stats
 
 ## A Space for everything
 
-![Spaces](media/spaces.png)
+![](media/spaces.png)
 
-## Preparing to teach STAT250
+## Preparing for the semester
+Create a new space | Add a description
 
-* Crate a new space
-* Add a description
+{{< video media/new_space.mp4 >}}
+
 
 ## Adding course material 
+**Projects** | Outputs | Data Connections 
 
-* Projects
-* Outputs
-* Data Connections 
+{{< video media/project.mp4 >}}
+
+## Adding course material 
+Projects | **Outputs** | Data Connections 
+
+{{< video media/output.mp4 >}}
+
+## Adding course material 
+Projects | Outputs | **Data Connections**
+
+{{< video media/data.mp4 >}}
 
 
 ## Getting ready for students
+Access Controls | Assingments | Lists
 
-* Sharing (visibility)
-* Assingments / Templates
-* Lists
+{{< video media/manage.mp4 >}}
+
 
 ## Adding students in students
+Email Invite | Generic Link | library(rscloud)
 
-* By email
-* Generic link
-* Too much UI? Rscloud
+{{< video media/invite.mp4 >}}
 
 ## What Students See
+Accept Invite | Start Assignment | See Their Content
 
-* Accepting invitation
-* Starting an assignment
-* Seeing the content list.... [it is now theirs]
+{{< video media/joining.mp4 >}}
 
-## Supporting Organizations - Without Sales Intervention
+## Teacher Visibility
+Member Management | Usage Analytics
+
+{{< video media/visibility.mp4 >}}
+
+## Supporting Organizations
 <!-- dot uses graphviz, not mermaid --> 
 ```{dot}
 graph G {
   layout=neato
-  Institution -- "Instructor A";
-  Institution --  "Instructor B";
-  Institution --  "Instructor C";
-  "Instructor A" -- "STAT 250";
-  "Instructor A" -- "STAT 350";
-  "Instructor B" -- "ECON 201";
-  "Instructor B" -- "ECON 202";
-  "Instructor C" -- "BIO 103";
-  "Instructor C" -- "BIO 104"
+  Institution -- "Instructor\nA";
+  Institution --  "Instructor\nB";
+  Institution --  "Instructor\nC";
+  "Instructor\nA" -- "STAT\n250";
+  "Instructor\nA" -- "STAT\n350";
+  "Instructor\nB" -- "ECON\n201";
+  "Instructor\nB" -- "ECON\n202";
+  "Instructor\nC" -- "BIO\n103";
+  "Instructor\nC" -- "BIO\n104"
 }
 
 ```
 
+## Other Use Cases
 
-##
+* Consulting Groups
+* SMBs
+* Internal BI
+
+What's more important?
+SSO | Security | Big Data
+
 
 ## {.center background-image="_extensions/positslides/assets/backgrounds/title-slide-option-2.png" background-size="contain"}
 
@@ -165,147 +165,3 @@ Built in Posit Cloud | Published to Connect Cloud
 :::
 
 ## 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Creating a space for a course
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## {background-image="_extensions/positslides/assets/backgrounds/full-brackets-dark.png" background-size="contain" .center}
-
-::: {.has-dark-background style="text-align: center; font-size: 200%"}
-What makes Posit Cloud magic?
-
-TODO: better words
-:::
-
-::: {.notes}
-So, let's talk about how it works.
-:::
-
-## Work happens in projects {.full-brackets-light}
-
-* projects are the fundamental units of work on Cloud.
-* projects are what most people are working on most of the time in Cloud.
-* projects are isolated from each other — each project is its own sandbox.
-
-TODO: insert a screenshot here of a new RStudio project
-
-::: {.notes}
-First, projects! 
-
-Projects are the fundamental units of work on Cloud. A project is where code, data and packages exist, and projects are isolated from each other. Projects are where users do their work.
-
-The most basic kind of project is simply a new RStudio project, but projects have lots of other aspects that are beneficial to learners and instructors alike.
-
-But as we accumulate projects, what do we do with them?
-:::
-
-## Projects exist in spaces {.full-brackets-light}
-
-* spaces are where projects exist in Cloud.
-* spaces:
-  * keep content organized,
-  * facilitate teaching, collaboration and sharing, and
-  * set various access permissions for content in Cloud.
-  
-TODO: insert a screenshot here of a named space
-
-::: {.notes}
-This is where spaces come in!
-
-Spaces are where projects exist in Cloud. Spaces allow for organization, and facilitate teaching, collaboration, and sharing. Projects are where the work gets done, but spaces are the magic that ties Cloud together. By default everyone gets a personal workspace, creatively called Your Workspace, and this space is limited in that it only ever has a single member. 
-
-Users can create additional, named spaces, and allow other users to join these spaces. All space membership grants specific permissions, allowing users access to different projects and features, depending on how the space is configured.
-
-TODO: Steal https://docs.google.com/presentation/d/1tyUwI1uFWjOHWbMiUzuicESxqi2iEtRtnqYi96ufLVc/edit#slide=id.g25a21409b39_0_16
-
-TODO: Steal https://docs.google.com/presentation/d/10cpVg8ix4W_J7aU8tKLwQ7MFjP0d3Vr0bpytXCDSiig/edit#slide=id.g253c839e444_0_204
-
-Let's talk more about named spaces.
-:::
-
-
-
-
-
-
-## Named spaces are great for teaching {.full-brackets-light}
-
-Named spaces can have:
-
-::: {.incremental}
-* Clever custom templates!
-* Amazing assignments!
-* Convenient custom lists!
-* Daring data connections!
-* Magnificent member management!
-* Vital visibility permissions!
-::: 
-
-::: {.notes}
-So, named spaces are the spaces that users can create for themselves. Named spaces have a number of cool features that make them truly excellent for instruction:
-
-* Getting started doesn't mean having to start from 0! While Cloud allows users to skip over installing R, RStudio, etc. on their machines, **custom templates** allow users to skip over the boilerplate of installing packages or even creating files. Instructors can set up templates so that learners can hit the ground running.
-* Like templates, **assignments** allow users to skip over boilerplate too. In addition, an assignment also allows a user to _always_ get back to wherever they were on whatever the current assignment is. This has been very helpful in a class setting where all students start from an existing project, no more getting lost or losing work or making extra copies.
-* **Custom lists** are a means of organizing content within a space. These lists are handy for grouping related content together, so that users can orient themselves more easily.
-* Cloud exposes the **professional drivers** at the top level to make it very very easy to allow users to securely store credentials and pull data into their projects. Some instructors are starting to take advantage of these features — they make it easier to get this configured ahead of time, which is always a bonus, but we're seeing a lot of traction on this feature from our business use case, and for them it is critical.
-* Cloud spaces have TODO add more here about **member management**
-  * In Cloud you can allow users to **join a space** via a link instead of an emailed invite. This actually sounds kind of boring unless you're trying to get 600 college students added to a space on the first day of lecture. This feature has a secret extra bonus ability where users joining the space can automatically open a designated project — more on that in a sec.
-  * In Cloud you can manage space membership via the **[rscloud](https://github.com/rstudio/rscloud) package**, which means you can write R while you teach R where you are already are.
-* And, while **permissions** aren't exactly the flashiest of features, they are critical for instructors who want to curate what their students have access to ... and prevent students from easily seeing each other's work. Permissions are derived from the role a user has in a space, and, amongst other things, allow the instructor(s) to hide projects until they are ready to be worked on This means that an instructor can create all teaching content ahead of time for their course.
-:::
-
-## And a bunch of other nifty things! {.full-brackets-dark}
-
-In Cloud you can:
-
-::: {.incremental}
-* Learn R with Recipes! Cool!
-* Get started with one of our global templates! Fantastic!
-* Further your learning or defer the routine to GitHub Copilot in RStudio projects! Incredible!
-* Collaborate in real time on a shared project! Remarkable!
-* Set up accounts for SSO! Splendid!
-* Publish from Cloud ... to Cloud! Astonishing!
-:::
-
-::: {.notes}
-And finally, here's a somewhat random collection of other awesome features I wanted to highlight today:
-* Cloud has an entire section dedicated to learning. Newly added, and most notably, Cloud has Recipes, which are a large set of instructional guides with code snippets, available to everyone with a Cloud account - thank you to the Academy team for these!
-* We have a growing number of **global templates** that everyone has access to when creating new projects. While users can create their own custom templates in their named spaces, these global templates are set up by us to allow users to hit the ground running with various common use cases, like creating Quarto or RMarkdown documents, Shiny applications, or doing data analysis and machine learning.
-* In Cloud you can use **GitHub Copilot** in your RStudio projects. You must have access to GitHub Copilot, and you must link your GitHub account in Cloud to do this, but it's basically like living in the future.
-* In Cloud, you can **work collaboratively** with other users on a single project in a space! This is a beta feature, and everyone in the space must have a role of admin or moderator to use it, but still, it's a neat thing to be able to do.]
-* **SSO** requires a different kind of account (an org account), which I haven't really touched on here, but some of our big customers love this ... or at least require it.
-* Finally, you can **publish** from Cloud ... to Cloud! If the important part of the work is the output, Cloud can handle that too. Cloud supports a number of different output formats, including Quarto, R Markdown, Shiny, Streamlit, and others. Posit Cloud is where I built these slides, and is where these slides are hosted! Follow this link to join my space and check them out yourself:
-
-TODO: make a join space link that sets everyone as a viewer and opens the slides by default.
-
-TODO: find a way to build a coherent story out of this.
-:::
-
