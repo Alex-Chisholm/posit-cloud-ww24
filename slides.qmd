@@ -1,7 +1,7 @@
 ---
 title: "Posit Cloud"
 subtitle: "Top User Flows & Supporting Features"
-author: "Alex & Mel"
+author: "Workweek 2024"
 title-slide-attributes: 
   data-background-color: white
   data-background-image: _extensions/positslides/assets/backgrounds/sample-title-slide-option-1.png
