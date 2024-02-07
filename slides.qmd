@@ -13,64 +13,67 @@ format:
     css: style.css
 ---
 
-## What is Posit Cloud? {.full-brackets-light .asd} 
+## What is Posit Cloud? {.full-brackets-light} 
 
-
-::: columns 
-::: {.column width="50%"} 
+::::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
 ![](media/landing_page.png)
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
 ::: incremental
 * Modern web browser + an internet connection = all you need
 * Do and share data science  
 * Open to all: 1m+ users
 :::
 :::
-:::
+::::
 
 
 
 ## Why so much ❤️?  {.full-brackets-light}
 
 
-
+::::: {.columns style='display: flex !important; height: 90%;'}
+::: {.column width="30%" style='display: flex; justify-content: center; align-items: center;'}
 ::: incremental
 * 5,000+ paying customers.
 * $1.9M in revenue in 2023, up about 50% from the previous year.
 * 7 in 10 (67%) would be *Very Disappointed* if they could no longer use.
 :::
+:::
 
+::: {.column width="70%" style='display: flex; justify-content: center; align-items: center;'}
 
-::: columns
-::: {.column width="50%"}
+::: incremental
 
 ::: {.callout-tip}
-## Kamil Kaźmierski | Adam Mickiewicz University in Poznań, Associate Professor
-It is the workhorse of several courses I teach. It <span style="color:green;">strips away the hassle of installing software and sharing data sets and assignments</span>, and has the added benefit of enabling me to peek into my student's projects if they need help.
+## Suyen Machado | Ed Project Director at UCLA
+Thanks to Posit Cloud we can sleep at night because we're **<span style="color:green;">not worried about servers breaking</span>** even as the number of students keeps growing.
 :::
 
+::: {.callout-tip}
+
+## Kamil Kaźmierski | Adam Mickiewicz University
+It is the workhorse of several courses I teach. It **<span style="color:green;">strips away the hassle of installing software and sharing data sets and assignments</span>**.
+
 :::
 
-:::  {.column width="50%"}
 
-```{mermaid}
-%%| echo: false 
-flowchart LR
-  A(Teaching &\nLearning) --> B(Higher\nEducation)
-  A(Teaching &\nLearning) --> C(K-12)
-  A(Teaching &\nLearning) --> E(Meet-Ups)
-  A(Teaching &\nLearning) --> E(Workshops)
-  A(Teaching &\nLearning) --> D(Corporate\nTraining)
- 
-```
 
 :::
 
 :::
+::::
 
-## Mel's Thought Experiment
+:::
+
+
+## {.center background-image="media/classroom.jpg" background-size="contain" background-opacity=0.5}
+
+::: {.has-dark-background style="text-align: center; font-size: 200%"}
+Mel's Thought Experiment
+:::
 
 ::: {.notes}
 One of the coolest things about Cloud is that it allows users, even the newest of new users, to simply ... go. This is especially important for anyone who is just starting out, as well as for anyone teaching them! The friction-free approach makes Cloud very, very well suited for instruction.
@@ -169,3 +172,18 @@ graph G {
 }
 
 ```
+
+:::  {.column width="50%"}
+
+```{mermaid}
+%%| echo: false 
+flowchart LR
+  A(Teaching &\nLearning) --> B(Higher\nEducation)
+  A(Teaching &\nLearning) --> C(K-12)
+  A(Teaching &\nLearning) --> E(Meet-Ups)
+  A(Teaching &\nLearning) --> E(Workshops)
+  A(Teaching &\nLearning) --> D(Corporate\nTraining)
+ 
+```
+
+:::
