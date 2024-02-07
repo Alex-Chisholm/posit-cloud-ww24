@@ -10,6 +10,7 @@ format:
   positslides-revealjs: 
     width: "1600"
     height: "900"
+
     css: style.css
 ---
 
@@ -69,7 +70,7 @@ It is the workhorse of several courses I teach. It **<span style="color:green;">
 :::
 
 
-## {.center background-image="media/classroom.jpg" background-size="contain" background-opacity=0.5}
+## {.center .stretch background-image="media/classroom.jpg" background-size="contain" background-opacity=0.5}
 
 ::: {.has-dark-background style="text-align: center; font-size: 200%"}
 Mel's Thought Experiment
@@ -140,18 +141,20 @@ What's more important for non-education customers?
 SSO | Security | Big Data
 
 
-## {.center background-image="_extensions/positslides/assets/backgrounds/title-slide-option-2.png" background-size="contain"}
+## Thank you! { background-size="contain"}
 
-::: {.has-dark-background style="text-align: center; font-size: 200%"}
-Thank you!
+
+::: {style="text-align: center; font-size: 75%; margin-top:50px; margin-bottom:50px"}
+Built in **Posit Cloud** | Published to **Connect Cloud**
 :::
 
-::: {.fragment .has-dark-background style="text-align: center; font-size: 75%"}
-Built in Posit Cloud | Published to Connect Cloud
+::: {layout-ncol=2 .center }
+
+![](media/pc.png){ }
+
+![](media/cc.png){}
+
 :::
-
-## 
-
 
 
 
