@@ -37,8 +37,6 @@ format:
 ::::: {.columns style='display: flex !important; height: 90%;'}
 ::: {.column width="30%" style='display: flex; justify-content: center; align-items: center;'}
 ::: incremental
-* 5,000+ paying customers
-* $1.9M in revenue in 2023, up more than 50% from '22
 * 7 in 10 would be *Very Disappointed* if they could no longer use
 :::
 :::

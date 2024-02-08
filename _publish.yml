@@ -1,0 +1,4 @@
+- source: slides.qmd
+  quarto-pub:
+    - id: 83ef4a41-8281-451a-a7ef-d57e941bff56
+      url: 'https://alex-chisholm.quarto.pub/posit-cloud'
