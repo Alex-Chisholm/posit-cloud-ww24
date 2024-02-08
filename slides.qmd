@@ -17,7 +17,7 @@ format:
 
 ::::: {.columns style='display: flex !important; height: 90%;'}
 ::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
-![](media/landing_page.png)
+![](media/pc2.png)
 :::
 
 ::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
@@ -49,7 +49,7 @@ format:
 
 ::: {.callout-tip}
 ## Suyen Machado | Ed Project Director at UCLA
-Thanks to Posit Cloud we can sleep at night because we're **<span style="color:green;">not worried about servers breaking</span>** even as the number of students keeps growing.
+"Thanks to Posit Cloud we can sleep at night because we're **<span style="color:green;">not worried about servers breaking</span>** even as the number of students keeps growing."
 :::
 
 <br>
@@ -57,7 +57,7 @@ Thanks to Posit Cloud we can sleep at night because we're **<span style="color:g
 ::: {.callout-tip}
 
 ## Kamil Kaźmierski | Adam Mickiewicz University
-It is the workhorse of several courses I teach. It **<span style="color:green;">strips away the hassle of installing software and sharing data sets and assignments</span>**.
+"It is the workhorse of several courses I teach. It **<span style="color:green;">strips away the hassle of installing software and sharing data sets and assignments</span>**."
 
 :::
 
@@ -132,7 +132,7 @@ Member Management | Usage Analytics
 
 ![](media/spaces.png)
 
-## Other Use Cases
+## Other Use Cases {visibility="hidden"}
 
 * Organizations
 * Consulting Groups
