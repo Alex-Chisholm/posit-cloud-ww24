@@ -1,6 +1,6 @@
 ---
 title: "Posit Cloud"
-subtitle: "Top User Flows & Supporting Features"
+subtitle: "Top 6 User Flows & Supporting Features"
 author: "Workweek 2024"
 title-slide-attributes: 
   data-background-color: white
@@ -10,7 +10,6 @@ format:
   positslides-revealjs: 
     width: "1600"
     height: "900"
-
     css: style.css
 ---
 
@@ -38,9 +37,9 @@ format:
 ::::: {.columns style='display: flex !important; height: 90%;'}
 ::: {.column width="30%" style='display: flex; justify-content: center; align-items: center;'}
 ::: incremental
-* 5,000+ paying customers.
-* $1.9M in revenue in 2023, up about 50% from the previous year.
-* 7 in 10 (67%) would be *Very Disappointed* if they could no longer use.
+* 5,000+ paying customers
+* $1.9M in revenue in 2023, up more than 50% from '22
+* 7 in 10 would be *Very Disappointed* if they could no longer use
 :::
 :::
 
@@ -52,6 +51,8 @@ format:
 ## Suyen Machado | Ed Project Director at UCLA
 Thanks to Posit Cloud we can sleep at night because we're **<span style="color:green;">not worried about servers breaking</span>** even as the number of students keeps growing.
 :::
+
+<br>
 
 ::: {.callout-tip}
 
@@ -87,48 +88,49 @@ Back in the dark ages, either students did their R programming work in the Stats
 
 ![](media/spaces.png)
 
-## Preparing for the semester
+## 1. Preparing for the semester
 Create a new space | Add a description
 
 {{< video media/new_space.mp4 >}}
 
-
-## Adding course material 
+## 2. Adding course material 
 **Projects** | Outputs | Data Connections 
 
 {{< video media/project.mp4 >}}
 
-## Adding course material 
+## 2. Adding course material 
 Projects | **Outputs** | Data Connections 
 
 {{< video media/output.mp4 >}}
 
-## Adding course material 
+## 2. Adding course material 
 Projects | Outputs | **Data Connections**
 
 {{< video media/data.mp4 >}}
 
-
-## Getting ready for students
-Access Controls | Assingments | Lists
+## 3. Setting Permissions
+Access Controls | Assignments | Lists
 
 {{< video media/manage.mp4 >}}
 
-
-## Adding students
+## 4. Inviting students
 Email Invite | Generic Link | library(rscloud)
 
 {{< video media/invite.mp4 >}}
 
-## What Students See
+## 5. Joining as a student
 Accept Invite | Start Assignment | See Their Content
 
 {{< video media/joining.mp4 >}}
 
-## Teacher Visibility
+## 6. Managing the course
 Member Management | Usage Analytics
 
 {{< video media/visibility.mp4 >}}
+
+## A Space for everything and everyone
+
+![](media/spaces.png)
 
 ## Other Use Cases
 
