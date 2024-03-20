@@ -130,16 +130,6 @@ Member Management | Usage Analytics
 
 ![](media/spaces.png)
 
-## Other Use Cases {visibility="hidden"}
-
-* Organizations
-* Consulting Groups
-* SMBs
-* Internal BI
-
-What's more important for non-education customers?
-SSO | Security | Big Data
-
 
 ## Thank you! { background-size="contain"}
 
@@ -156,37 +146,3 @@ Built in **Posit Cloud** | Published to **Connect Cloud**
 
 :::
 
-
-
-## Supporting Organizations {visibility="hidden"}
-<!-- dot uses graphviz, not mermaid --> 
-```{dot}
-graph G {
-  layout=neato
-  Institution -- "Instructor\nA";
-  Institution --  "Instructor\nB";
-  Institution --  "Instructor\nC";
-  "Instructor\nA" -- "STAT\n250";
-  "Instructor\nA" -- "STAT\n350";
-  "Instructor\nB" -- "ECON\n201";
-  "Instructor\nB" -- "ECON\n202";
-  "Instructor\nC" -- "BIO\n103";
-  "Instructor\nC" -- "BIO\n104"
-}
-
-```
-
-:::  {.column width="50%"}
-
-```{mermaid}
-%%| echo: false 
-flowchart LR
-  A(Teaching &\nLearning) --> B(Higher\nEducation)
-  A(Teaching &\nLearning) --> C(K-12)
-  A(Teaching &\nLearning) --> E(Meet-Ups)
-  A(Teaching &\nLearning) --> E(Workshops)
-  A(Teaching &\nLearning) --> D(Corporate\nTraining)
- 
-```
-
-:::
